@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="dingtalk-1.2.36">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/backend/lib/dingtalk-1.2.36.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
