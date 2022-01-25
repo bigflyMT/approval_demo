@@ -1,0 +1,210 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+html, body {
+  height: 100%;
+  font-size: 13px;
+}
+#root {
+  height: 100%;
+}
+
+.app-wrap {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  background: #F7F8FA;
+}
+
+.app-tit-wrap {
+  height: 40px;
+  line-height: 40px;
+  display: flex;
+  background: #fff;
+}
+
+.app-tit-item { 
+  flex: 1;
+  text-align: center;
+  border-bottom: 1px solid #D9D9D9;
+}
+
+.app-tit-item-cur {
+  color: #5176FE;
+  border-bottom: 2px solid #5176FE;
+}
+
+.approval-body {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.approval-contain-wrap {
+  flex: 1;
+  overflow: auto;
+}
+
+.approval-footer {
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  background: #fff;
+  border-top: 1px solid #D9D9D9;
+}
+
+.approval-line {
+  display: flex;
+  background: #fff;
+  height: 40px;
+  align-items: center;
+  padding: 0 10px;
+  border-bottom: 1px solid #D9D9D9;
+}
+.approval-miti-line {
+  display: flex;
+  background: #fff;
+  padding: 10px 10px;
+  border-bottom: 1px solid #D9D9D9;
+}
+
+.approval-miti-checkbox-wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.approval-miti-checkbox {
+  font-size: 12px;
+  width: 120px;
+  height: 28px;
+  line-height: 28px;
+}
+
+.approval-line-label {
+  width: 80px;
+  font-size: 13px;
+}
+
+.approval-line-input {
+  flex: 1;
+  text-align: right;
+}
+
+.approval-tip {
+  height: 28px;
+  line-height: 28px;
+  padding: 0 10px;
+}
+
+.approval-line-switch-input {
+  flex: 1;
+  border: 1px solid #D9D9D9;
+  outline-style: none;
+  height: 26px;
+  border-radius: 4px;
+  padding: 0 4px;
+}
+
+.approval-line-switch-text {
+  flex: 1;
+}
+
+.approval-line-switch-label {
+  width: 110px;
+  text-align: right;
+  margin-right: 10px;
+}
+
+.approval-miti-label {
+  min-width: 100px;
+  height: 28px;
+  line-height: 28px;
+}
+
+.approval-list-item {
+  background: #fff;
+  border-bottom: 1px solid #D9D9D9;
+  padding: 10px 10px;
+}
+
+.approval-list-item-line {
+  display: flex;
+  height: 14px;
+  line-height: 14px;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+.approval-list-item-name {
+  flex: 1;
+  font-size: 13px;
+  overflow: hidden;
+  white-space:nowrap;
+  text-overflow:ellipsis;
+  color: #222;
+}
+
+.approval-list-item-date {
+  width: 80px;
+  color: #999;
+  text-align: right;
+  font-size: 12px;
+}
+
+.approval-list-item-margin {
+  margin-bottom: 10px;
+}
+
+.approval-list-item-state {
+  font-size: 12px;
+}
+
+.approval-list-item-link {
+  color: #5176FE;
+  font-size: 12px;
+  text-decoration: underline;
+}
+
+.approval-list-tip {
+  padding: 3px 10px;
+  font-size: 12px;
+}

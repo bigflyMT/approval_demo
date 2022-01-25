@@ -1,0 +1,174 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+html, body {
+  height: 100%;
+  font-size: 13px;
+}
+#root {
+  height: 100%;
+}
+
+.app-wrap {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  background: #F7F8FA;
+}
+
+.app-tit-wrap {
+  height: 40px;
+  line-height: 40px;
+  display: flex;
+  background: #fff;
+}
+
+.app-tit-item { 
+  flex: 1;
+  text-align: center;
+  border-bottom: 1px solid #D9D9D9;
+}
+
+.app-tit-item-cur {
+  color: #5176FE;
+  border-bottom: 2px solid #5176FE;
+}
+
+.approval-body {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.approval-contain-wrap {
+  flex: 1;
+  overflow: auto;
+}
+
+.approval-footer {
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  background: #fff;
+  border-top: 1px solid #D9D9D9;
+}
+
+.approval-line {
+  display: flex;
+  background: #fff;
+  height: 40px;
+  align-items: center;
+  padding: 0 10px;
+  border-bottom: 1px solid #D9D9D9;
+}
+.approval-miti-line {
+  display: flex;
+  background: #fff;
+  padding: 10px 10px;
+  border-bottom: 1px solid #D9D9D9;
+}
+
+.approval-miti-line .adm-checkbox {
+  margin-right: 20px;
+  height: 28px;
+}
+.approval-miti-line .adm-checkbox-content {
+  font-size: 14rem;
+}
+
+.approval-line-label {
+  width: 80px;
+  font-size: 13px;
+}
+
+.approval-line-input .adm-input {
+  text-align: right;
+}
+
+.approval-tip {
+  height: 28px;
+  line-height: 28px;
+  padding: 0 10px;
+}
+
+.approval-line-switch-input {
+  border: 1px solid #ccc;
+}
+
+.approval-line-switch-text {
+  flex: 1;
+}
+
+.approval-line-switch-label {
+  width: 110px;
+  text-align: right;
+  margin-right: 10px;
+}
+
+.approval-miti-label {
+  width: 1rem;
+  height: 28px;
+  line-height: 28px;
+}
+
+.approval-list-item {
+  background: #fff;
+  border-bottom: 1px solid #D9D9D9;
+  padding: 10px 10px;
+}
+
+.approval-list-item-line {
+  display: flex;
+  height: 14rem;
+  line-height: 14rem;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+.approval-list-item-name {
+  flex: 1;
+  font-size: 13px;
+  overflow: hidden;
+  white-space:nowrap;
+  text-overflow:ellipsis;
+  color: #222;
+}
+
+.approval-list-item-date {
+  width: 80px;
+  color: #999;
+  text-align: right;
+  font-size: 12px;
+}
+
+.approval-list-item-margin {
+  margin-bottom: 10px;
+}
+
+.approval-list-item-state {
+  font-size: 12px;
+}
+
+.approval-list-item-link {
+  color: #5176FE;
+  font-size: 12px;
+  text-decoration: underline;
+}
+
+.approval-list-tip {
+  padding: .03rem 10px;
+  font-size: 12px;
+}
